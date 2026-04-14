@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# Ruh İyi 🧘
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+React Native & Expo ile geliştirilmiş ruh sağlığı ve iyi oluş uygulaması.
 
-## Get started
+## Özellikler
+- **Ana ekran**: Günlük motivasyon + ruh hali takibi
+- **Stres Yönetimi**: Anket + 4-7-8 nefes egzersizi timer
+- **İyi Uyku**: Uyku kalitesi anketi + rutin zaman çizelgesi
+- **Fiziksel İyi Oluş**: Aktivite takibi + egzersiz kartları
+- **Günlük tutma**: Ruh hali seçimi + kayıt + son 3 giriş
+- **Profil**: İsim kaydı (AsyncStorage) + streak + başarımlar
 
-1. Install dependencies
+## Ekranlar / Router Yapısı
+Expo Router file-based routing kullanır (`app/` klasörü):
+- `app/splash.tsx` – Splash (2 sn)
+- `app/index.tsx` – Giriş
+- `app/home.tsx` – Ana ekran
+- `app/detail/[category].tsx` – Detay (stress / sleep / physical)
+- `app/journal.tsx` – Günlük
+- `app/profile.tsx` – Profil
+- `app/settings.tsx` – Ayarlar (placeholder)
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Kurulum
+1. Repoyu klonla
 
 ```bash
-npm run reset-project
+git clone https://github.com/polatirem/ruh-iyi-app.git
+cd ruh-iyi-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Bağımlılıkları yükle
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Uygulamayı başlat
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+## Kullanım (Kısayollar)
+- **Android**:
 
-Join our community of developers creating universal apps.
+```bash
+npm run android
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **iOS**: Expo Go uygulamasını kullan (iOS Simulator için macOS gerekir).
+
+## Kullanılan Teknolojiler
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **Expo Router**
+- **@react-native-async-storage/async-storage**
+- **expo-linear-gradient**
+
+## Video
+[YouTube linki eklenecek]
+
+## APK
+[APK linki eklenecek]
