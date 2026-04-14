@@ -61,4 +61,4 @@ npm run android
 https://youtube.com/shorts/ElJRuK0heEE?si=v1U2T9NrEqxFgxmx
 
 ## APK
-[APK linki eklenecek]
+https://github.com/polatirem/ruh-iyi-app/releases/download/v1.0.0/application-ad5fa106-8013-44b5-b95d-d8589f8d8b4a.apk
