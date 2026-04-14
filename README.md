@@ -58,7 +58,7 @@ npm run android
 - **expo-linear-gradient**
 
 ## Video
-[YouTube linki eklenecek]
+https://youtube.com/shorts/ElJRuK0heEE?si=v1U2T9NrEqxFgxmx
 
 ## APK
 [APK linki eklenecek]
